@@ -43,9 +43,9 @@ function Navbar() {
                                     className="nav-link"
                                     aria-current="page"
                                     href="#"
-                                    to="/about"
+                                    to="/skills"
                                 >
-                                    About
+                                    Skills
                                 </Link>
                             </li>
                             <li className="nav-item">
@@ -56,6 +56,16 @@ function Navbar() {
                                     to="/projects"
                                 >
                                     Projects
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link
+                                    className="nav-link"
+                                    aria-current="page"
+                                    href="#"
+                                    to="/about"
+                                >
+                                    About
                                 </Link>
                             </li>
                         </ul>

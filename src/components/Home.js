@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
 import pic from "./images/prathamesh.png";
 function Home() {
@@ -10,35 +10,21 @@ function Home() {
                     <div className="col-12 col-md-7 col-lg-7  order-1">
                         <div className="text-box">
                             <h1>
-                                I'm{" "}
+                                Hii, I'm
+                                <br />
                                 <h1 className="auto-input">
                                     <Typewriter
-                                        onInit={(t) => {
-                                            t.changeDelay(200)
-                                                .typeString("Prathamesh Dixit")
-                                                .pauseFor(2000)
-                                                .changeDelay(205)
-                                                .deleteAll()
-                                                .typeString("Web Developer")
-                                                .pauseFor(2000)
-                                                .changeDelay(210)
-                                                .deleteAll()
-                                                .typeString(
-                                                    "in Love with Coding"
-                                                )
-                                                .pauseFor(2000)
-                                                .deleteAll()
-                                                .typeString("Prathamesh Dixit")
-                                                .pauseFor(2000)
-                                                .changeDelay(225)
-                                                .deleteAll()
-                                                .typeString("Web Developer")
-                                                .pauseFor(2000)
-                                                .changeDelay(250)
-                                                .deleteAll()
-                                                .typeString("Prathamesh Dixit")
-                                                .start();
-                                        }}
+                                        words={[
+                                            "Prathamesh Dixit",
+                                            "FullStack Developer",
+                                            "React Developer",
+                                        ]}
+                                        loop={0}
+                                        cursor
+                                        cursorStyle="|"
+                                        typeSpeed={100}
+                                        deleteSpeed={50}
+                                        delaySpeed={1000}
                                     />
                                 </h1>
                             </h1>
@@ -68,7 +54,9 @@ function Home() {
                         </div>
                     </div>
                     <div className="col-12 col-md-5 col-lg-5 align-self-center myflex">
-                        <img className="my-img" src={pic} alt="image" />
+                        <div className="img-container">
+                            <img className="my-img" src={pic} alt="image" />
+                        </div>
                     </div>
                 </div>
             </div>

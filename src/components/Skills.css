@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.skill-container {
+    padding: 10px 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: #495057;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
+    transition: 0.5s;
+}
+
+.skill-card:hover {
+    background-color: #fff724;
+    color: #495057;
+    scale: 1.1;
+}
+
+.ricon {
+    margin-inline: 10px;
+    background-color: inherit;
+}
+
+.icon {
+    background-color: inherit;
+}
+
+.skillName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: inherit;
+}
+
+@media only screen and (max-width: 1000px) {
+    .skill-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (max-width: 780px) {
+    .skill-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 540px) {
+    .skill-container {
+        grid-template-columns: 1fr;
+    }
+}
