@@ -41,6 +41,7 @@ function Home() {
                             <a
                                 className="contact-me"
                                 target="_blank"
+                                rel="noreferrer"
                                 href="https://prathameshndixit.github.io/LiveResume/"
                             >
                                 My Resume
@@ -55,7 +56,7 @@ function Home() {
                     </div>
                     <div className="col-12 col-md-5 col-lg-5 align-self-center myflex">
                         <div className="img-container">
-                            <img className="my-img" src={pic} alt="image" />
+                            <img className="my-img" src={pic}alt="" />
                         </div>
                     </div>
                 </div>
