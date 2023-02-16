@@ -3,9 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
-src/components/images
-src/components/Home.js
-src/components/Home.css
+/images
+/components
 .pnp.js
 
 # testing
