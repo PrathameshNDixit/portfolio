@@ -35,6 +35,7 @@ function Home() {
                                     debugging Monday’s code.
                                 </p>
                             </blockquote>
+                            
                             <figcaption class="blockquote-footer">
                                 <cite title="Source Title">– Dan Salomon</cite>
                             </figcaption>

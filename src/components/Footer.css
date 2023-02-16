@@ -1,0 +1,26 @@
+.footer{
+    color: white;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-block: 10px;
+    background-color: #212529;
+    width: 100%;
+    box-shadow: 0 -3px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+.footer a{
+    text-decoration: none;
+    background-color: inherit;
+}
+.footer-icon{
+    color: #495057;
+    background-color: inherit;
+    transition: 0.5s;
+
+}
+.footer-icon:hover{
+    color: #fff724;
+}
