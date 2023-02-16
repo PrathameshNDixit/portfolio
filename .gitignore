@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 /images
-src/components
+/src/components
 .pnp.js
 
 # testing
